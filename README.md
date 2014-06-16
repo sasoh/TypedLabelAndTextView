@@ -1,4 +1,4 @@
 TypedLabel
 ==========
 
-Timer-typed label (typewriter style)
+Lightweight NSTimer-based subclass of UILabel that appears to be typed with a typewriter.
