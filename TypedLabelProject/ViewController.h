@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "TypedLabel.h"
+#import "TypedTextView.h"
 
 @interface ViewController : UIViewController {
     IBOutlet TypedLabel *_typedLabel;
+    IBOutlet TypedTextView *_typedTextView;
 }
 
 @end

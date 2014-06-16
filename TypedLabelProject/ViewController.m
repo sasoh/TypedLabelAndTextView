@@ -23,6 +23,11 @@
     [_typedLabel setTypedText:@"Demo text here."];
     [_typedLabel setTypingSpeed:0.25f];
     
+
+    [_typedTextView setText:@""];
+    [_typedTextView setTypedText:@"Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."];
+    [_typedTextView setTypingSpeed:0.1f];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,6 +40,7 @@
 {
     
     [_typedLabel startTyping];
+    [_typedTextView startTyping];
     
 }
 

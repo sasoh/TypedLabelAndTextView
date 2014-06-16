@@ -1,4 +1,4 @@
-TypedLabel
+TypedLabel & TypedTextView
 ==========
 
-Lightweight NSTimer-based subclass of UILabel that appears to be typed with a typewriter.
+Lightweight NSTimer-based subclasses of UILabel & UITextView that appear to be typed with a typewriter.

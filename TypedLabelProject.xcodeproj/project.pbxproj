@@ -17,6 +17,7 @@
 		2D9FEE51194ED60A009B76D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FEE50194ED60A009B76D7 /* ViewController.m */; };
 		2D9FEE53194ED60A009B76D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9FEE52194ED60A009B76D7 /* Images.xcassets */; };
 		2D9FEE71194ED678009B76D7 /* TypedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FEE70194ED678009B76D7 /* TypedLabel.m */; };
+		2D9FEE74194EDE31009B76D7 /* TypedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FEE73194EDE31009B76D7 /* TypedTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		2D9FEE59194ED60A009B76D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2D9FEE6F194ED678009B76D7 /* TypedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypedLabel.h; path = TypedLabel/TypedLabel.h; sourceTree = "<group>"; };
 		2D9FEE70194ED678009B76D7 /* TypedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TypedLabel.m; path = TypedLabel/TypedLabel.m; sourceTree = "<group>"; };
+		2D9FEE72194EDE31009B76D7 /* TypedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypedTextView.h; path = TypedTextView/TypedTextView.h; sourceTree = "<group>"; };
+		2D9FEE73194EDE31009B76D7 /* TypedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TypedTextView.m; path = TypedTextView/TypedTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				2D9FEE41194ED60A009B76D7 /* Supporting Files */,
 				2D9FEE6F194ED678009B76D7 /* TypedLabel.h */,
 				2D9FEE70194ED678009B76D7 /* TypedLabel.m */,
+				2D9FEE72194EDE31009B76D7 /* TypedTextView.h */,
+				2D9FEE73194EDE31009B76D7 /* TypedTextView.m */,
 				2D9FEE4F194ED60A009B76D7 /* ViewController.h */,
 				2D9FEE50194ED60A009B76D7 /* ViewController.m */,
 			);
@@ -174,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9FEE51194ED60A009B76D7 /* ViewController.m in Sources */,
+				2D9FEE74194EDE31009B76D7 /* TypedTextView.m in Sources */,
 				2D9FEE71194ED678009B76D7 /* TypedLabel.m in Sources */,
 				2D9FEE4B194ED60A009B76D7 /* AppDelegate.m in Sources */,
 				2D9FEE47194ED60A009B76D7 /* main.m in Sources */,
